@@ -67,3 +67,15 @@ main{
     letter-spacing: 1px;
 
 }
+
+@media(min-width:1440px){
+    main{
+        padding: 18rem;
+        background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+        background-position: right 52vw bottom 45vh, 45vw 55vh;
+        background-repeat: no-repeat;
+    }
+    .card{
+        width: 24rem;
+    }
+}
